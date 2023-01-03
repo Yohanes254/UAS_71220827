@@ -42,7 +42,7 @@ while belum_keluar:
     elif pilihan == choices[1]:
         print("")
         print("-"*30,end="")
-        print('Nama Kegiatan\t.Tanggal\t.Kategori\t.Poin')
+        print("Nama Kegiatan\t.Tanggal\t.Kategori\t.Poin")
         total_poin = 0
         for i, kegiatan_terdaftar in enumerate(kegiatan,start=1):
             print(f"{i}. {kegiatan_terdaftar}",end="\t")
