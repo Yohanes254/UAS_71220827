@@ -1,12 +1,12 @@
 import turtle
-s = turtle.Screen().bgcolor('pink')
+s = turtle.Screen().bgcolor("pink")
 t = turtle.Turtle()
 
 t.pensize(3)
 
 #tongkat
 t.down()
-t.fillcolor('brown')
+t.fillcolor("brown")
 t.begin_fill()
 t.forward(20)
 t.left(90)
@@ -21,7 +21,7 @@ t.up()
 #papan
 t.goto(0,50)
 t.down()
-t.fillcolor("yellow'")
+t.fillcolor("yellow")
 t.begin_fill()
 t.left(90)
 t.forward(120)
